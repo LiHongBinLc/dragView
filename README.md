@@ -3,6 +3,7 @@
 - 因项目新需求需要添加一个屏幕拖拽按钮可以弹出菜单的控件,因为不是我做的闲来无事写一个demo吧  可能存在一些小bug(毕竟就写了几个小时)兄弟姐妹们理解思路就行 具体的可以自己调试一下  废话不多说先来一个gif走一走(调了帧数 可能看着比较快 不要介意)
 
 - GitHub 传送车[https://github.com/guanhaoran/dragView](https://github.com/guanhaoran/dragView "GitHub顺风车")
+- gif有点小 对付看吧 (太大了传github的时候 会出错  放图片还看不出来效果 不要介意)
 
 
 
