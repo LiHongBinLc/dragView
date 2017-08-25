@@ -136,10 +136,10 @@ public class DragView extends Button {
             } else if (mScreenWidth - right < 50 && top < 50) {
                 excursionX = -getWidth() * 2 - 20;
                 excursionY = 0;
-            } else if (mScreenWidth - right < 50 && mScreenHeight - bottom < 50) {
+            } else if (mScreenWidth - right < 50 && mScreenHeight - bottom < getHeight()*2) {
                 excursionX = -getWidth() * 2 - 20;
                 excursionY = -getHeight() * 3 - 20;
-            } else if (mScreenHeight - bottom < 50 && left < 50) {
+            } else if (mScreenHeight - bottom < getHeight()*2 && left < 50) {
                 excursionX = getWidth();
                 excursionY = -getHeight() * 3 - 20;
             } else if (left < 50) {
@@ -151,7 +151,7 @@ public class DragView extends Button {
             } else if (mScreenWidth - right < 50) {
                 excursionX = -getWidth() * 2 - 10;
                 excursionY = -getHeight() - getHeight() / 2 - 10;
-            } else if (mScreenHeight - bottom < 180) {
+            } else if (mScreenHeight - bottom < getHeight() * 2.5) {
                 excursionX = -getWidth() / 2 -10;
                 excursionY = -getHeight() * 3 - 10;
             } else {

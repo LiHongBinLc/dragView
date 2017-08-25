@@ -57,7 +57,7 @@ this.context = context;
         }
         @Override
         public void onClick(View v) {
-            ToastUtils.showToast(context,"我点击了"+c+"");
+            ToastUtils.showToast(context,"我点击了菜单");
         }
     }
 
